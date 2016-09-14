@@ -1,0 +1,64 @@
+body {
+	margin: 2%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c468e+0,2c1984+35,3d3d56+58,559e82+100 */
+	background: #1c468e; /* Old browsers */
+	background: -moz-linear-gradient(left, #1c468e 0%, #2c1984 35%, #3d3d56 58%, #559e82 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #1c468e 0%,#2c1984 35%,#3d3d56 58%,#559e82 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #1c468e 0%,#2c1984 35%,#3d3d56 58%,#559e82 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c468e', endColorstr='#559e82',GradientType=1 ); /* IE6-9 */
+}
+
+.fancy a {
+	text-decoration: none;
+	color: #f6f6fb;
+	width: 40%;
+}
+
+.fancy a:hover {
+	text-decoration: white underline;
+}
+
+.fancy li {
+	display: inline-block;
+	margin: 15px;
+	padding: 5px ;
+}
+
+.fancy {
+	background-color: #1e1929;
+	text-align: right;
+	width: 40%;
+	float: right;
+}
+
+.title {
+	border-right: 10px solid white;
+	border-bottom: 10px solid white;
+	display: inline-block;
+	padding: 3px;
+	padding-right: 25px;	
+}
+ 
+.contact {
+	display: inline-block;
+	float: right;
+	padding: -25px;
+	margin: 20px;
+	border-bottom: 3px dotted black;
+}
+
+.container {
+	background-color: #f6f6fb;
+	margin-top: 0px;
+	height: 90%;
+}
+
+nav {
+	clear: left;
+}
+
+footer {
+	position:absolute;
+    width:100%;
+    bottom:0px;
+}

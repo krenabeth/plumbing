@@ -1,0 +1,40 @@
+<!DOCTYPE>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="scripts.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+	</head>
+
+	<body ng-app="plumberApp">
+	<div class="container">
+		<nav>
+			<ul class="fancy">
+				<li class="active"><a href="#html/home">Home</a></li>
+				<li class="active"><a href="#/about">About</a></li>
+				<li class="active"><a href="#/testimonials">Testimonials</a></li>
+				<li class="active"><a href="#/photos">Photos</a></li>
+				<li class="active"><a href="#/contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="title">
+			<h1>Tom's Plumbing</h1>
+		</div>
+		<div class="contact">
+			<h2>Contact</h2>
+		</div>
+		
+		<ng-view></ng-view>
+	</div>
+
+		<footer>&copy; Karen Langner</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/routes.js"></script>
+	</body>
+
+</html>
