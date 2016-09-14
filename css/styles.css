@@ -1,3 +1,5 @@
+/*attempt to replicate style of http://githubuniverse.com without looking at the code*/
+
 body {
 	margin: 2%;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c468e+0,2c1984+35,3d3d56+58,559e82+100 */
@@ -8,6 +10,9 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c468e', endColorstr='#559e82',GradientType=1 ); /* IE6-9 */
 }
 
+nav {
+	clear: left;
+}
 .fancy a {
 	text-decoration: none;
 	color: #f6f6fb;
@@ -15,7 +20,7 @@ body {
 }
 
 .fancy a:hover {
-	text-decoration: white underline;
+	text-decoration: underline;
 }
 
 .fancy li {
@@ -27,38 +32,71 @@ body {
 .fancy {
 	background-color: #1e1929;
 	text-align: right;
-	width: 40%;
+	margin: 0px;
+	width: 70%;
 	float: right;
+	font-family: 'Ek Mukta', sans-serif;
+	text-transform: uppercase;	
+	letter-spacing: 0.15em;
 }
-
+.logo {
+	margin-top: -50px;
+	margin-left: 10px;
+}
+.connect {
+	display: inline-block;
+}
 .title {
+	z-index: 1;
+	display: inline-block;
 	border-right: 10px solid white;
 	border-bottom: 10px solid white;
-	display: inline-block;
-	padding: 3px;
-	padding-right: 25px;	
+	padding: 10px;
+	padding-right: 25px;
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	margin-top: -50px;
 }
- 
-.contact {
+.line {
+	border-top: 10px dotted black;
 	display: inline-block;
+	width: 25%;
+	height: 4px;
+	margin-top: -35px;
+}
+.contact {
 	float: right;
-	padding: -25px;
-	margin: 20px;
-	border-bottom: 3px dotted black;
+	padding: 0px 20px;
+	margin: 15px;
+	border: 3px solid #1e1929;
+	box-shadow: 10px 10px #1e1929;
+	text-transform: uppercase;	
+	font-family: 'Ek Mukta', sans-serif;
+}
+.contact a {
+	color: #2c1984;	
+}
+.contact:hover {
+	color: white;
+	background-color: #1a51b0;
 }
 
+main {
+	clear: both;
+	padding-left: 20%;
+	padding-right: 25%;
+	font-size: 115%;
+}
 .container {
 	background-color: #f6f6fb;
 	margin-top: 0px;
 	height: 90%;
 }
 
-nav {
-	clear: left;
-}
-
 footer {
 	position:absolute;
-    width:100%;
-    bottom:0px;
+	padding-bottom: 5px;
+	width: 100%;
+    text-align: center;
+    bottom: 0px;
 }

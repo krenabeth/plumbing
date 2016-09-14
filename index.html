@@ -4,29 +4,38 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-		<script src="scripts.js"></script>
+		
+		<link href="https://fonts.googleapis.com/css?family=Ek+Mukta:700|Exo+2:600" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+
 	</head>
 
 	<body ng-app="plumberApp">
 	<div class="container">
 		<nav>
 			<ul class="fancy">
-				<li class="active"><a href="#html/home">Home</a></li>
-				<li class="active"><a href="#/about">About</a></li>
+				<li class="is-active"><a href="#html/home">Home</a></li>
+				<li ng-class="{active: isActive(fancy)}"><a href="#/about">About</a></li>
 				<li class="active"><a href="#/testimonials">Testimonials</a></li>
 				<li class="active"><a href="#/photos">Photos</a></li>
 				<li class="active"><a href="#/contact">Contact</a></li>
 			</ul>
 		</nav>
-		<div class="title">
-			<h1>Tom's Plumbing</h1>
-		</div>
-		<div class="contact">
-			<h2>Contact</h2>
-		</div>
 		
-		<ng-view></ng-view>
+			<div class="connect">
+				<img src="plumber.png" alt="plumber" width="150" class="logo">
+			
+				<h1 class="title">Tom's Plumbing</h1>
+				<div class="line">
+				</div>
+				<a href="#/contact"><div class="contact">
+					<h2>Contact</h2></div></a>
+
+			</div>
+
+			<main>
+				<ng-view></ng-view>
+			</main>
 	</div>
 
 		<footer>&copy; Karen Langner</footer>
