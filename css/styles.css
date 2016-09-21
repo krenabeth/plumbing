@@ -58,16 +58,19 @@ nav {
 	margin-top: -50px;
 }
 .line {
-	border-top: 10px dotted black;
-	display: inline-block;
-	width: 25%;
-	height: 4px;
-	margin-top: -35px;
+	border-image: url(images/dots.png) 50 repeat;
+/*	border-top:0;
+	border-left:0;
+	border-right:0;*/
+
 }
+
+
+
 .contact {
 	float: right;
 	padding: 0px 20px;
-	margin: 15px;
+	margin: 50px;
 	border: 3px solid #1e1929;
 	box-shadow: 10px 10px #1e1929;
 	text-transform: uppercase;	
@@ -91,6 +94,7 @@ main {
 	background-color: #f6f6fb;
 	margin-top: 0px;
 	height: 90%;
+	overflow: auto;
 }
 
 footer {
