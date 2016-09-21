@@ -5,3 +5,9 @@ app.controller("navController",["$scope", "$location", function($scope, $locatio
     return destination === $location.path();
   }
 }]);
+
+app.controller("plumbingCtrl" ["$scope", function($scope){
+	$scope.photos = function(){
+
+	}
+}]);

@@ -5,27 +5,27 @@ app.config(function($routeProvider) {
 	.when('/',
 	{
 		templateUrl: 'html/home.html',
-		controller: 'plumbingController'
+		controller: 'plumbingCtrl'
 	})
 	.when ('/about',
 	{
 		templateUrl: 'html/about.html',
-		controller: 'plumbingController'
+		controller: 'plumbingCtrl'
 	})
 	.when('/testimonials',
 	{
 		templateUrl: 'html/testimonials.html',
-		controller: 'plumbingController'
+		controller: 'plumbingCtrl'
 	})
 	.when ('/photos',
 	{
 		templateUrl: 'html/photos.html',
-		controller: 'plumbingController'
+		controller: 'plumbingCtrl'
 	})
 		.when ('/contact',
 	{
 		templateUrl: 'html/contact.html',
-		controller: 'plumbingController'
+		controller: 'plumbingCtrl'
 	})
 	.otherwise({ redirectTo: '/'})
 });
